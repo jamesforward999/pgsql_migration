@@ -1,5 +1,5 @@
 ExtraDeps = [
-    {epgsql, ".*", {git, "git://github.com/epgsql/epgsql.git", {tag, "3.0.0"}}}
+    {epgsql, ".*", {git, "https://github.com/epgsql/epgsql.git", {tag, "3.0.0"}}}
 ],
 
 case os:getenv("REBAR_EXTRA_DEPS") of
